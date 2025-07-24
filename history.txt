@@ -1,0 +1,21 @@
+  467  git clone https://github.com/DalitsoRadebe/tpc-community.git
+  468  mkdir tpc-community
+  469  cs tpc-community
+  470  cd tpc-community
+  471  mkdir automation_scripts
+  472  cd automation_scripts
+  473  touch deploy.sh
+  474  chmod +x deploy,sh
+  475  echo 'hello' > deploy.sh
+  476  chmod +x deploy.sh
+  477  ./deploy.sh
+  478  cd ..
+  479  mkdir documentation
+  480  cd documentation
+  481  touch style_guide.txt
+  482  cd ..
+  483  git init
+  484  git add .
+  485  git commit -m "First Commit"
+  486  git push
+  487  history
